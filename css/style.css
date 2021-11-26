@@ -384,6 +384,12 @@ p {
 
 /*volunteers*/
 
+.life-volunteers {
+  background-image: url("../img/volunteer1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .volunteers__descr {
   background-image: url("../img/volunteer.jpg");
   background-position: center left;
@@ -670,6 +676,45 @@ p {
   margin: 0;
 }
 
+/*news*/
+
+.news__card {
+  border: 1px solid #333333;
+  border-radius: 10px;
+  flex-direction: column;
+  background-image: url("../img/new1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  background-position: center top;
+  padding-top: 300px;
+}
+
+.news__indent {
+  padding: 20px;
+}
+
+.news__link {
+  padding: 2px 5px 1px 5px;
+  border-bottom: 1px solid #333333;
+}
+
+.news__link:hover {  
+  border-bottom: 1px solid rgba(242, 101, 34, 1);
+}
+
+.news__link:focus { 
+  border-bottom: 1px solid rgba(242, 101, 34, 1);
+}
+
+.news__link:active {
+  color: rgba(242, 101, 34, 1);
+  border-bottom: none;
+}
+
+.news__tag {
+  color: rgb(42, 88, 133);
+}
+
 /*footer*/
 
 .footer {
@@ -752,7 +797,7 @@ p {
 }
 
 .footer__social-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 5px;
 }
 
 .social-link {
